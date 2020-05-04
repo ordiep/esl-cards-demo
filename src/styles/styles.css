@@ -1,8 +1,36 @@
 .esl-grid{
-  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .esl-card{
-  margin: 1rem;
-  border: 2px dotted black;
+  flex-basis: auto;
+  flex: 0 1 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 2rem;
+  border-radius: 0.1rem;
+  width: 25rem;
+  margin: 0.5rem;
+}
+
+.esl-card img{
+  max-width: 20rem;
+  height: auto;
+}
+
+.loader {
+  margin: 0 auto;
+  border: 10px solid #f3f3f3; 
+  border-top: 10px solid rgb(4, 75, 30); 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
