@@ -34,3 +34,10 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 2rem;
+  box-sizing: border-box;
+}

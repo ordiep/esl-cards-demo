@@ -6,7 +6,6 @@ import '../../styles/styles.css';
 const App = () => {
   return (
   <React.Fragment>
-    <h2> ESL Card Demo Grid Loads here </h2>
     <Grid />
   </React.Fragment>
   )
